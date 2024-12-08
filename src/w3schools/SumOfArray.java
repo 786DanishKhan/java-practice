@@ -1,7 +1,5 @@
 package w3schools;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class SumOfArray {
     public static void main(String[] args) {
 

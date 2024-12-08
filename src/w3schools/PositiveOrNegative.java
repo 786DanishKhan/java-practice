@@ -2,12 +2,12 @@ package w3schools;
 
 public class PositiveOrNegative {
     public static void main(String[] args) {
-        int numbers = 0;
+        int number = -8;
 
-        if (numbers > 0) {
-            System.out.println("The value is positive number");
-        } else if (numbers < 0) {
-            System.out.println("The vaiue is negative number");
+        if (number > 0) {
+            System.out.println(number+ " is positive number");
+        } else if (number < 0) {
+            System.out.println(number+ "is negative number");
         } else {
             System.out.println("The value is 0");
         }

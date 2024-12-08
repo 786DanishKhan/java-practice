@@ -2,12 +2,12 @@ package w3schools;
 
 public class EvenOrOdd {
     public static void main(String[] args) {
-        int numbers = 10;
+        int number = 10;
 
-        if (numbers % 2 == 0) {
-            System.out.println(numbers + " is even");
+        if (number % 2 == 0) {
+            System.out.println(number + " is even");
         } else {
-            System.out.println(numbers + " is odd");
+            System.out.println(number + " is odd");
         }
     }
 }
