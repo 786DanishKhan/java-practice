@@ -1,12 +1,15 @@
 package w3schools;
 
+import java.util.Scanner;
+
 public class StringToArray {
     public static void main(String[] args) {
-
-        String input = "Hello";
+        Scanner obj = new Scanner(System.in);
+        String input = obj.nextLine();
+        //String input = "Hello";
 
         char[] myArray = input.toCharArray();
 
-        System.out.println(myArray[1]);
+        System.out.println(myArray[0]);
     }
 }

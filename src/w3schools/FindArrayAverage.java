@@ -9,7 +9,7 @@ public class FindArrayAverage {
         for(int i = 0; i<numbers.length; i++) {
             sum = sum + numbers[i];
         }
-        //System.out.println("sum;" +sum);
+        System.out.println("sum;" +sum);
 
         avg = sum/numbers.length;
         System.out.println("Avg:" +avg);

@@ -1,8 +1,8 @@
 public class BinarySearch {
     public static void main(String[] args) {
         // Sorted array
-        int[] numbers = {2, 5, 8, 12, 16, 23, 38, 45, 56, 72, 91};
-        int target = 45;
+        int[] numbers = {5, 10, 15, 20, 25, 30, 35, 40};
+        int target = 20 ;
         int targetIndex = -1;
 
         int left = 0;

@@ -2,7 +2,7 @@ package hackerrank;
 
 import java.util.Scanner;
 
-public class JavaStringReverse {
+public class JavaStringReverse { //palindrome
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

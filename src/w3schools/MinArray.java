@@ -1,6 +1,6 @@
 package w3schools;
 
-public class SmallestArray {
+public class MinArray {
         public static void main(String[] args) {
             int[] numbers = {20, 22, 18, 35, 48, 26, 87, 70};
             int min = numbers[0];

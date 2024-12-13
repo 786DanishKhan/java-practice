@@ -3,7 +3,7 @@ public class LinearSearch {
 
         int[] numbers = {10, 20, 30, 40, 50};
 
-        int givenNumber = 60;
+        int givenNumber = 40;
 
         for (int i = 0; i < numbers.length; i++) {
             if (givenNumber == numbers[i]) {
