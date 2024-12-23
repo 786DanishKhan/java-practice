@@ -22,7 +22,6 @@ public class BinarySearch {
                 left = midIndex + 1;
             }
         }
-
         // Print the result
         if (targetIndex == -1) {
             System.out.println("Element not found in the array.");
