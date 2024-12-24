@@ -1,6 +1,6 @@
 public class ReverseNumber {
     public static void main(String[] args) {
-        int number = 8265;
+        int number = 5623;
         int reverseNumber = 0;
 
         while(number!=0){
