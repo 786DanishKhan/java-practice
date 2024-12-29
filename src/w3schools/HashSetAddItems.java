@@ -13,7 +13,7 @@ public class HashSetAddItems {
 
         System.out.println(cars.contains("Audi"));
 
-        cars.remove("Audi");
+        //cars.remove("Audi");
         System.out.println(cars);
 
         cars.clear();
