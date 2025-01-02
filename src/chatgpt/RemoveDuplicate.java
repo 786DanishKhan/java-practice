@@ -18,11 +18,10 @@ public class RemoveDuplicate {
         System.out.println(numbersCount);
         for (int i : numbersCount.keySet()){
             if(numbersCount.get(i)>1) {
-               // System.out.println(i);
                 duplicates.add(i);
+                //System.out.println(i);
             }
         }
         System.out.println(duplicates);
-
     }
 }

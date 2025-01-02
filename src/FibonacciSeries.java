@@ -1,4 +1,4 @@
-public class FibonacciSeries {
+    public class FibonacciSeries {
         public static void main(String[] args) {
             int n = 10;
             System.out.println("Fibonacci Series up to " + n + " terms:");

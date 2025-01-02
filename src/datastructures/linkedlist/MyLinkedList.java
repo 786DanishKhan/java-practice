@@ -1,10 +1,8 @@
 package datastructures.linkedlist;
 
-public class MyLinkedList {
+public class    MyLinkedList {
     public void traverse(Node head) {
         Node current = head;
-
-
         while (current!=null) {
 
             System.out.println(current.data);
@@ -24,6 +22,7 @@ public class MyLinkedList {
             head = head.next;
         }
         return false;
+
     }
 
     public int length(Node head) {

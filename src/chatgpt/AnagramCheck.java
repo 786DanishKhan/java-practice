@@ -1,5 +1,6 @@
 package chatgpt;
-
+//Two Strings are called the anagram if they have the same character with the same frequency,
+//but the order of the character is different.
 import java.util.HashMap;
 
 public class AnagramCheck {

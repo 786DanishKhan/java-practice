@@ -19,7 +19,8 @@ public class FirstNonRepeatingCharacter {
         for (char ch : uniqueLetter.keySet()) {
             if (uniqueLetter.get(ch) == 1) {
                 System.out.println(ch);
-                System.out.println(input.indexOf(ch));
+                return;
+
             }
         }
     }

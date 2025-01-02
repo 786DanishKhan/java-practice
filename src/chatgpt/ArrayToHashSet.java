@@ -10,6 +10,5 @@ public class ArrayToHashSet {
             numbers.add(arr[i]);
         }
         System.out.println(numbers);
-
     }
 }

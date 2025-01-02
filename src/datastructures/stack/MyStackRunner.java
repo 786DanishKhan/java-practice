@@ -13,14 +13,11 @@ public class MyStackRunner {
         int peek = obj.peek();
         System.out.println(peek);
 
-        obj.push(18);
-        obj.push(15);
-        obj.push(12);
-        obj.push(10);
+       obj.push(18);
         System.out.println(obj.peek());
 
         int pop = obj.pop();
-        System.out.println(pop);
+       System.out.println(pop);
 
         System.out.println(obj.peek());
 

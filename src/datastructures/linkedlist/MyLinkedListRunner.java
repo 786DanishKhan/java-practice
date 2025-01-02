@@ -5,9 +5,9 @@ public class MyLinkedListRunner {
         MyLinkedList obj = new MyLinkedList();
         int length = obj.length(null);
         System.out.println(length);
-        obj.traverse(null);
+        //obj.traverse(null);
         boolean search = obj.search(null, 1);
-        System.out.println(search);
+       System.out.println(search);
         Node node1 = obj.insertAtEnd(null, 12);
         obj.traverse(node1);
         Node node2 = obj.insertAtEnd(node1, 5);
@@ -19,5 +19,7 @@ public class MyLinkedListRunner {
         obj.traverse(node4);
         Node node5 = obj.insertAtEnd(node4, 8);
         obj.traverse(node5);
+        Node deleteLastNode = obj.deleteLastNode(null);
+        System.out.println(deleteLastNode);
     }
 }
