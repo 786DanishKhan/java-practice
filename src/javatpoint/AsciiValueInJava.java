@@ -3,13 +3,13 @@ package javatpoint;
 // It represents the numerical value of a character. For example, the ASCII value of A is 65.
 public class AsciiValueInJava {
     public static void main(String[] args) {
-        char ch1 = 'c';
-        char ch2 = 'd';
-
-        int c = ch1;
-        int d = ch2;
-        System.out.println("The ASCII value of " + ch1 + " is: " + c);
-        System.out.println("The ASCII value of " + ch2 + " is: " + d);
+char ch = 'z';
+int z = ch;
+        int a = 'a';
+        int b = 'b';
+//        System.out.println("The ASCII value of " + ch1 + " is: " + a);
+//        System.out.println("The ASCII value of " + ch2 + " is: " + b);
+        System.out.println(z);
 
     }
 }
