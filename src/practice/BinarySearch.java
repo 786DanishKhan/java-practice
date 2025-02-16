@@ -1,9 +1,9 @@
 package practice;
-
+//final
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 6, 8, 9};
-        int target = 10;
+        int target = 4;
         int targetIndex = -1;
 
         int left = 0;

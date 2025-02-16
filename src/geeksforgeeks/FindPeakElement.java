@@ -1,13 +1,13 @@
 package geeksforgeeks;
 
-public class PeakElement1 {
+public class FindPeakElement {
     static int peakElement(int[] arr) {
 
         int n = arr.length;
 
         for (int i = 0; i < n; i++) {
             boolean left = true;
-            boolean right = left;
+            boolean right = true;
 
             //check the element to tha left
             if (i > 0 && arr[i] <= arr[i - 1]) {

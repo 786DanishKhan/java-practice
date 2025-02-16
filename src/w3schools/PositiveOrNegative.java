@@ -1,7 +1,7 @@
 package w3schools;
 
 import java.util.Scanner;
-
+//Already done
 public class PositiveOrNegative {
     public static void main(String[] args) {
         //int number = -8;

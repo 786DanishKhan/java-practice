@@ -1,5 +1,5 @@
 package practice;
-
+//Done
 public class LinearSearch {
     public static void main(String[] args) {
         int [] number = {10, 30, 40, 50, 60};

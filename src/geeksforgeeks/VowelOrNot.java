@@ -1,7 +1,8 @@
 package geeksforgeeks;
+//Done
 public class VowelOrNot {
     public static void main(String[] args) {
-        char c = 'i';
+        char c = 'O';
         isVowel(c);
     }
     public static void isVowel(char c){

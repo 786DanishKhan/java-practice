@@ -1,5 +1,5 @@
 package practice;
-
+//Done
 public class MaxArray {
     public static void main(String[] args) {
         int[] number = {50, 55, 6, 0, 65, 99};

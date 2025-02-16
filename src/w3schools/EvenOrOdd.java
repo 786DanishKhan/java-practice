@@ -1,7 +1,7 @@
 package w3schools;
 
 import java.util.Scanner;
-
+//Already Done
 public class EvenOrOdd {
     public static void main(String[] args) {
         //int number = 10;

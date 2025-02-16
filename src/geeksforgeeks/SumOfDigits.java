@@ -1,8 +1,8 @@
 package geeksforgeeks;
-
+//Done
 public class SumOfDigits {
     public static void main(String[] args) {
-        int n = 12;
+        int n = 123;
 
         int sum = 0;
 

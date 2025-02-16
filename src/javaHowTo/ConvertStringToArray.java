@@ -1,5 +1,5 @@
 package javaHowTo;
-
+//Done
 public class ConvertStringToArray {
     public static void main(String[] args) {
         String A = "Hello";

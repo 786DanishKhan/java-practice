@@ -2,7 +2,7 @@ package w3schools;
 import java.util.HashSet;
 public class HashSetAddItems {
     public static void main(String[] args) {
-        HashSet <String> cars = new HashSet <String>();
+        HashSet <String> cars = new HashSet <>();
 
         cars.add("BMW");
         cars.add("Audi");

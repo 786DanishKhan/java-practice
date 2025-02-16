@@ -1,3 +1,4 @@
+
 package javaHowTo;
 
 public class FindSmallestArray {

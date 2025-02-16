@@ -1,4 +1,5 @@
 public class ArrayPrint {
+    //Done
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 5, 99, 100};
         for (int i = 0; i < arr.length; i++) {
@@ -10,7 +11,7 @@ public class ArrayPrint {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        System.out.println(arr[arr.length - 1]);
+        System.out.println(arr[arr.length - 2]);
     }
 }
 

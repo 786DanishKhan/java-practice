@@ -1,7 +1,7 @@
 package geeksforgeeks;
 
 import java.util.Scanner;
-
+//final
 public class Calculator {
     public static void main(String[] args) {
        // int a = 15;//initialize
@@ -16,7 +16,7 @@ public class Calculator {
         System.out.println(divide(a,b));
     }
 
-    private static int subtract(int a, int b) {
+     static int subtract(int a, int b) {
         return a-b;
     }
 

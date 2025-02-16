@@ -1,5 +1,5 @@
 package geeksforgeeks;
-
+//Done
 public class SumOfSeries {
     public static void main(String[] args) {
         int n = 10;

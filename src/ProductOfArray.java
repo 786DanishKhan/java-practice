@@ -1,4 +1,5 @@
 public class ProductOfArray {
+    //Done
     public static void main(String[] args) {
         int[] arr = {12, 2, 3, 4, 5};
         int product = 1;

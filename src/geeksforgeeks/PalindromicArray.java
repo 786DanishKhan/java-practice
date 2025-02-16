@@ -1,8 +1,8 @@
 package geeksforgeeks;
-
+//Done
 public class PalindromicArray {
     public static void main(String[] args) {
-        int[] arr = {111, 222, 333, 444, 123};
+        int[] arr = {111, 222, 333, 444, 555};
         boolean result = palinArray(arr);
         System.out.println(result);
     }

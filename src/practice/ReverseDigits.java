@@ -1,11 +1,11 @@
 package practice;
-
+//Already done
 public class ReverseDigits {
     public static void main(String[] args) {
         int number = 5252;
         int reverseNumber = 0;
 
-        while (number != 0) {
+        while (number > 0) {
             int remainder = number % 10;
             number = number / 10;
 

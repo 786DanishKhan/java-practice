@@ -1,7 +1,7 @@
 package geeksforgeeks;
-
+//Done
 import java.util.Arrays;
-
+//final
 public class CheckEqualArray {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 5, 4, 0};

@@ -9,7 +9,7 @@ public class HashSetForLoop {
         number.add(3);
         number.add(4);
 
-        for (int i = 0; i <=10; i++){
+        for (int i = 0; i <=6; i++){
             if(number.contains(i)){
                 System.out.println(i +" was found in tha set");
             }else{

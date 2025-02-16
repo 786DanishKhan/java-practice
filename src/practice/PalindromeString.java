@@ -1,5 +1,5 @@
 package practice;
-
+//Done
 import java.util.Scanner;
 
 public class PalindromeString {

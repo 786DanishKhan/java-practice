@@ -1,6 +1,5 @@
 package practice;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class StringLowerToUpper {
@@ -21,8 +20,8 @@ public class StringLowerToUpper {
         }
 
         //Capitalized the first letter of both string
-        String capitalizedA= A.substring(0,1).toUpperCase() + A.substring(1);
-        String capitalizedB= B.substring(0,1).toUpperCase() + B.substring(1);
+        String capitalizedA= A.substring(0,2).toUpperCase() + A.substring(1);
+        String capitalizedB= B.substring(0,2).toUpperCase() + B.substring(1);
 
         System.out.println(capitalizedA+ " " +capitalizedB);
     }

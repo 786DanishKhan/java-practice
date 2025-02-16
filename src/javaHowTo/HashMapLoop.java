@@ -11,7 +11,7 @@ public class HashMapLoop {
         capitalCities.put("Germany","Berlin");
 
         for (String key : capitalCities.keySet()) {
-            System.out.println(key);
+            //System.out.println(key);
             System.out.println(capitalCities.get(key));
         }
     }

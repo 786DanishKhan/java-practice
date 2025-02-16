@@ -6,8 +6,8 @@ public class Student {
 
     //Default constructor
     Student() {
-        name = "Danish"; // set the initial value of class student name
-        age = 26; // set the initial value of class student age
+        this.name = "Danish"; // set the initial value of class student name
+        this.age = 26; // set the initial value of class student age
     }
 
     //Main method call the call constructor class

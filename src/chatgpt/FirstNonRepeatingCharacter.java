@@ -5,10 +5,9 @@ import java.util.HashMap;
 public class FirstNonRepeatingCharacter {
     public static void main(String[] args) {
         String input = "swiss";
-        char letter;
         HashMap<Character, Integer> uniqueLetter = new HashMap<>();
         for (int i = 0; i < input.length(); i++) {
-            letter = input.charAt(i);
+            char letter = input.charAt(i);
             if (uniqueLetter.containsKey(letter)) {
                 uniqueLetter.put(letter, uniqueLetter.get(letter)+1);
             } else {
@@ -20,7 +19,6 @@ public class FirstNonRepeatingCharacter {
             if (uniqueLetter.get(ch) == 1) {
                 System.out.println(ch);
                 return;
-
             }
         }
     }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListLoop {
     public static void main(String[] args) {
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<>();
         cars.add("Toyota");
         cars.add("BMW");
         cars.add("Audi");

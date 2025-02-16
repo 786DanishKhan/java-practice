@@ -1,5 +1,5 @@
 package geeksforgeeks;
-
+//Done
 import java.util.Scanner;
 
 public class OddorEven {

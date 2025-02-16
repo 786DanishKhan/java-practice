@@ -1,5 +1,5 @@
 package practice;
-
+//Done
 public class CountWordsInBackwordForward {
     public static void main(String[] args) {
         String sentence = "He is a very very good boy isn, t he";
@@ -10,13 +10,13 @@ public class CountWordsInBackwordForward {
         System.out.println(countWords);
 
         //forward print
-        for (int i = 0; i<words.length; i++){
+        for (int i = 0; i<words.length-1; i++){
             System.out.println(words[i]);
         }
         System.out.println();
 
         //backward print
-        for (int i = words.length-1; i>+0; i--){
+        for (int i = words.length-1; i>=0; i--){
             System.out.println(words[i]);
         }
     }

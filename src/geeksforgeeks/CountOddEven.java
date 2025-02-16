@@ -16,6 +16,6 @@ public class CountOddEven {
         for (int i = 0; i < count.length; i++) {
             System.out.println(count[i]);
         }
-        System.out.println(count);
+        System.out.println( );
     }
 }

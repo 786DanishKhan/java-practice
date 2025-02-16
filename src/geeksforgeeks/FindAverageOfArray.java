@@ -1,6 +1,6 @@
 package geeksforgeeks;
-
-public class JavaArrays {
+//Done
+public class FindAverageOfArray {
     public static void main(String[] args) {
         int[] arr = {2, 55, 85, 52, 5, 2, 656, 554, 545};
         double sum = 0;

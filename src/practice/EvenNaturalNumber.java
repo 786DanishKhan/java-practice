@@ -1,7 +1,7 @@
 package practice;
 
 import java.util.Scanner;
-
+//Done
 public class EvenNaturalNumber {
     public static void main(String[] args) {
         int sum = 0;

@@ -1,5 +1,5 @@
 package practice;
-
+//Done
 public class CountSmallerElement {
     public static void main(String[] args) {
         int[] arr = {20, 5, 7, 8, 9, 10, 2, 1};

@@ -1,6 +1,7 @@
 package practice;
 
 import java.util.Arrays;
+//Already done
 
 public class CheckEqualArray {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 package geeksforgeeks;
-
+//Done
 public class MinMaxArray {
     public static void main(String[] args) {
         int[] arr = {3, 2, 1, 56, 1000, 167};

@@ -1,8 +1,8 @@
 package practice;
 
 import java.util.Scanner;
-
-public class JvaIfElse {
+//Done
+public class IfElseExample {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         int n = obj.nextInt();

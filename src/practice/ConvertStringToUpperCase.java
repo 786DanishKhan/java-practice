@@ -1,7 +1,7 @@
 package practice;
 
 import java.util.Scanner;
-
+//Done
 public class ConvertStringToUpperCase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,4 +1,5 @@
-public class NaturalNumbers {
+public class NaturalNumbersSum {
+    //Done
     public static void main(String[] args) {
         int sum = 0;
 

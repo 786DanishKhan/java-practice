@@ -1,12 +1,10 @@
 package hackerrank;
-
-import java.util.Scanner;
-
-public class JavaStringToken {
+//Done
+public class StringSentence {
     public static void main(String[] args) {
-        //String sentence = "He is a very very good boy isn' t he"; //initialize input
-        Scanner sc = new Scanner(System.in); // user input
-        String sentence= sc.nextLine();
+        String sentence = "He is a very very good boy isn' t he"; //initialize input
+//        Scanner sc = new Scanner(System.in); // user input
+//        String sentence= sc.nextLine();
         String[] words = sentence.split(" ");
         //String words count
         int countWords = words.length;

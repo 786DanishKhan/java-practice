@@ -1,5 +1,5 @@
 package w3schools;
-
+//Already Done
 public class FindArrayAverage {
     public static void main(String[] args) {
         int[] numbers = {20, 22, 18, 35, 48, 26, 87, 70};

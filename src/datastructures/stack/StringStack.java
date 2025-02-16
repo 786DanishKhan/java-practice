@@ -46,6 +46,7 @@ public class StringStack {
             return "";
         }else {
             String x = myStack[top];
+            top = top - 1;
             return x;
         }
     }

@@ -19,7 +19,7 @@ public class MyLinkedListRunner {
         obj.traverse(node4);
         Node node5 = obj.insertAtEnd(node4, 8);
         obj.traverse(node5);
-        Node deleteLastNode = obj.deleteLastNode(null);
-        System.out.println(deleteLastNode);
+        obj.deleteLastNode(node5);
+        System.out.println(node5);
     }
 }

@@ -1,5 +1,5 @@
 package w3schools;
-
+//Already done
 public class SumOfArray {
     public static void main(String[] args) {
 

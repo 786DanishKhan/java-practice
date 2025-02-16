@@ -1,5 +1,5 @@
 package hackerrank;
-
+//Done
 public class JavaLoops {
     public static void main(String[] args) {
         int n = 3;

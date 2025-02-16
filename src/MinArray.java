@@ -1,4 +1,5 @@
 public class MinArray {
+    //Done
     public static void main(String[] args) {
         int[] numbers = {58, 35, 46, 79, 30};
         int min = numbers[0];

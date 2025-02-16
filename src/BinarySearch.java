@@ -1,4 +1,5 @@
 public class BinarySearch {
+    //Already done
     public static void main(String[] args) {
         // Sorted array
         int[] numbers = {5, 10, 15, 20, 25, 30, 35, 40};

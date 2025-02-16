@@ -1,5 +1,5 @@
 package practice;
-
+//Done
 public class MinArray {
     public static void main(String[] args) {
         int[] number = {35, 40, 66, 55, 20, 19};

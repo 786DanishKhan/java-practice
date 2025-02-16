@@ -1,6 +1,7 @@
 public class PrimeOrNot {
+    //Done
     public static void main(String[] args) {
-        int num = 7;
+        int num = 4;
         boolean isPrime = true;
         for (int i = 2; i < num; i++) {
             if (num % i == 0) {
