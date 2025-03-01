@@ -14,12 +14,13 @@ public class MyLinkedListRunner {
         obj.traverse(node2);
         Node node3 = obj.insertAtEnd(node2, 15);
         obj.traverse(node3);
-        obj.deleteLastNode(null);
-        Node node4 = obj.insertAtEnd(node3, 8);
-        obj.traverse(node4);
-        Node node5 = obj.insertAtEnd(node4, 8);
-        obj.traverse(node5);
-        obj.deleteLastNode(node5);
-        System.out.println(node5);
+        obj.deleteLastNode(node3);
+        obj.traverse(node3);
+//        Node node4 = obj.insertAtEnd(node3, 8);
+//        obj.traverse(node4);
+//        Node node5 = obj.insertAtEnd(node4, 8);
+//        obj.traverse(node5);
+//        obj.deleteLastNode(node5);
+//        System.out.println(node5);
     }
 }

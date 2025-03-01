@@ -63,15 +63,14 @@ public class    MyLinkedList {
         }
 
         if (head.next==null){
-            head = null;
             return null;
         }
 
-        Node secondLast = head;
-        while(secondLast.next.next!=null){
-            secondLast = secondLast.next;
+        Node current = head;
+        while(current.next.next!=null){
+            current = current.next;
         }
-        secondLast.next = null;
+        current.next = null;
 
         return head;
     }
