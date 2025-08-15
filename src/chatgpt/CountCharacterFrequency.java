@@ -2,7 +2,7 @@ package chatgpt;
 
 import java.util.HashMap;
 
-public class CountCharacterFrequency {
+public class  CountCharacterFrequency {
     public static void main(String[] args) {
             String input = "java programming";
             //char letter;

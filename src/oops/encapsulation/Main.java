@@ -8,7 +8,7 @@ public class Main {
         person.setRollNumber(123);
 
         System.out.println("Name:" +person.getName());
-        System.out.println("Age:" +person.getAge());
+        System.out.println("Azlge:" +person.getAge());
         System.out.println("rollNumber: " +person.getRollNumber()) ;
     }
 }

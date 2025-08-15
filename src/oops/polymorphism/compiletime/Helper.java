@@ -8,7 +8,7 @@ public class Helper {
         return a * b;
     }
 
-    public static int multiply(int a ,int b,int c){
-        return a * b * c;
+    public static int addition(int a ,int b,int c){
+        return a + b +  c;
     }
 }

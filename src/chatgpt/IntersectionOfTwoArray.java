@@ -10,7 +10,7 @@ public class IntersectionOfTwoArray {
         HashMap<Integer, Integer> numbersCount = new HashMap<>();
         for (int i = 0; i < arr1.length; i++) {
             if (numbersCount.containsKey(arr1[i])) {
-                numbersCount.put(i, numbersCount.get((arr1[i]) + 1));
+                numbersCount.put(arr1[i], numbersCount.get((arr1[i]) + 1));
             } else {
                 numbersCount.put(arr1[i], 1);
             }

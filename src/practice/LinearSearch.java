@@ -9,9 +9,9 @@ public class LinearSearch {
             if(givenNumber==number[i]){
                 System.out.println("Number exist in array at index:" +i);
                 break;
-            }/*else{
+            }else{
                 System.out.println("Number not exist in array");
-            }*/
+            }
         }
     }
 }
