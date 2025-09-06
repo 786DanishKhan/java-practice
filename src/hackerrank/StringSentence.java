@@ -2,7 +2,7 @@ package hackerrank;
 //Done
 public class StringSentence {
     public static void main(String[] args) {
-        String sentence = "He is a very very good boy isn' t he"; //initialize input
+        String sentence = "He is a very very good boy isn't he"; //initialize input
 //        Scanner sc = new Scanner(System.in); // user input
 //        String sentence= sc.nextLine();
         String[] words = sentence.split(" ");

@@ -20,6 +20,8 @@ public class AnagramWithoutHashmap {
         Arrays.sort(charArrayA);
         Arrays.sort(charArrayB);
 
+
+
         return Arrays.equals(charArrayA, charArrayB);
     }
 }
