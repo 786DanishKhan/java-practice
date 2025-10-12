@@ -12,12 +12,15 @@ public class MyStackRunner {
 
         int peek = obj.peek();
         System.out.println(peek);
+        System.out.println(obj.size());
 
        obj.push(18);
         System.out.println(obj.peek());
 
+
         int pop = obj.pop();
        System.out.println(pop);
+        System.out.println(obj.size());
 
         System.out.println(obj.peek());
 

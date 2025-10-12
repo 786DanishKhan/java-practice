@@ -4,7 +4,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
 
-        int target = 4;
+        int target = 6;
         int targetindex = -1;
 
         int left = 0;

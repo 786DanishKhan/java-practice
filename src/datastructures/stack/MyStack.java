@@ -7,8 +7,8 @@ public class MyStack {
 
     //constructor to initialize top
     public MyStack(int capacity) {
-        myStack= new int[capacity];
-        this.capacity=capacity;
+        myStack = new int[capacity];
+        this.capacity = capacity;
         top = -1;
     }
 
@@ -21,7 +21,7 @@ public class MyStack {
     }
 
     public boolean push(int x) {
-        if (top >= capacity-1) {   //top = 19 , capacity - 1 = 19;
+        if (top >= capacity - 1) {   //top = 19 , capacity - 1 = 19;
             System.out.println("stack overflow");
             return false;
         } else {
@@ -52,11 +52,15 @@ public class MyStack {
         }
     }
 
-   void traverse(){
-        for(int i = 0; i<=top; i++){
+    void traverse() {
+        for (int i = 0; i <= top; i++) {
             System.out.println(myStack[i]);
         }
-   }
+    }
+
+    public int size() {
+        return top + 1;
+    }
 }
 
 

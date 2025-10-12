@@ -23,6 +23,7 @@ public class AnagramCheck {
             } else {
                 charCount.put(ch, 1);
             }
+
         }
         for (int i = 0; i<b.length(); i++){
             char ch = b.charAt(i);
