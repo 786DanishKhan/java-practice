@@ -4,8 +4,8 @@ import java.util.Stack;
 public class ValidParentheses {
     public static void main(String[] args) {
         String s = "()";
-        Solution5 solution = new Solution5();
-        boolean isValid = solution.isValid(s);
+        Solution5 ss = new Solution5();
+        boolean isValid = ss.isValid(s);
         System.out.println(isValid);
     }
 }

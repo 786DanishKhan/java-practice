@@ -2,14 +2,14 @@ package LeetCode;
 
 public class RemoveElement {
     public static void main(String[] args) {
-        int[] nums = {3,3,2,2,2};
+        int[] nums = {3,3,2,2,};
         int val = 3;
-        Solution2 solution = new Solution2();
+        Solution31 solution = new Solution31();
         int k = solution.removeElement(nums, val);
         System.out.println(k);
 }
 }
-class Solution2{
+class Solution31 {
     public int removeElement(int[] nums, int val){
         int count = 0;
         for(int i = 0; i < nums.length; i++){
