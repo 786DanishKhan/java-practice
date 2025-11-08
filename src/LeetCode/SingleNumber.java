@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class SingleNumber {
     public static void main(String[] args) {
         Solution10 s10 = new Solution10();
-        int[] nums = {2,2,1,1};
+        int[] nums = {4,1,2,1,2};
         int result = s10.singleNumber(nums);
         System.out.println(result);
     }
@@ -21,7 +21,7 @@ class Solution10 {
             }
         }
         for(int i : oneNumber.keySet()){
-            if(oneNumber.get(i)>0){
+            if(oneNumber.get(i)==1){
                 return i;
             }
         }

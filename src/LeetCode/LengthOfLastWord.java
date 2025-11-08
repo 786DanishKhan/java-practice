@@ -10,7 +10,6 @@ public class LengthOfLastWord {
 }
 class Solution8 {
     public int lengthOfLastWord(String s) {
-        System.out.println(s);
         s = s.trim();
         System.out.println(s);
         String[] words = s.split(" ");

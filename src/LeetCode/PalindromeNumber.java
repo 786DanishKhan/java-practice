@@ -1,13 +1,11 @@
 package LeetCode;
 
-import static geeksforgeeks.PalindromicArray.isPalindrome;
-
 public class PalindromeNumber {
     public static void main(String[] args) {
         int x = 121;
         int reverse = 0;
-        Solution1 s = new Solution1();
-        boolean isPalindrome = s.isPalindrome(121);
+        Solution1 pn = new Solution1();
+        boolean isPalindrome = pn.isPalindrome(121);
         System.out.println(isPalindrome);
 
 

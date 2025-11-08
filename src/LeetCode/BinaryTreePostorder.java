@@ -3,39 +3,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-class TreeNode {
-    int val;
-    TreeNode0 left;
-    TreeNode0 right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode0 left, TreeNode0 right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-
 public class BinaryTreePostorder {
     public static void main(String[] args) {
-        TreeNode0 root = new TreeNode0(1);
-        root.right = new TreeNode0(2);
-        root.right.left = new TreeNode0(3);
+        TreeNode root = new TreeNode(1);
+        root.right = new TreeNode(2);
+        root.right.left = new TreeNode(3);
         Solution19 bt = new Solution19();
         System.out.println(bt.postorderTraversal(root));
     }
 }
 class Solution19{
-    public List<Integer> postorderTraversal(TreeNode0 root) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if(root == null) {
          return result;
      }
-        Stack<TreeNode0> stack1 = new Stack<>();
-        Stack<TreeNode0> stack2 = new Stack<>();
+        Stack<TreeNode> stack1 = new Stack<>();
+        Stack<TreeNode> stack2 = new Stack<>();
         stack1.push(root);
         while(!stack1.isEmpty()) {
-            TreeNode0 curr = stack1.pop();
+            TreeNode curr = stack1.pop();
             stack2.push(curr);
 
             if (curr.right != null)

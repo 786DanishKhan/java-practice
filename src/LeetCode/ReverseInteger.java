@@ -10,13 +10,16 @@ public class ReverseInteger {
 }
 class Solution34{
     public int reverse(int x){
-        int reverse = 0;
+        long reverse = 0;
         while(x>0){
             int remainder = x %10;
             reverse = reverse *10 + remainder;
+            if(reverse> Integer.MAX_VALUE || reverse< Integer.MIN_VALUE){
+                return 0;
+            }
             x = x /10;
 
         }
-        return reverse;
+        return Math.toIntExact(reverse);
     }
 }

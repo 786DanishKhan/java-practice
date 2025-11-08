@@ -1,0 +1,24 @@
+package LeetCode;
+
+public class NumberOfSteps {
+    public static void main(String[] args) {
+        int num = 14;
+        Solution1342 NS = new Solution1342();
+        int steps = NS.numberSteps(num);
+        System.out.println(steps);
+    }
+}
+class Solution1342{
+    public int numberSteps(int num){
+        int steps = 0;
+        while(num!=0){
+            if(num%2==0){
+                num = num / 2;
+            }else{
+                num = num - 1;
+            }
+            steps++;
+        }
+        return steps;
+    }
+}
